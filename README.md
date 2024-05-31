@@ -22,7 +22,7 @@ This project implements an air canvas using Mediapipe and OpenCV. Users can draw
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/air-canvas.git
+   git clone https://github.com/YashasKumar/Air_canvas.git
    cd air-canvas
    ```
 
@@ -35,7 +35,7 @@ This project implements an air canvas using Mediapipe and OpenCV. Users can draw
 
 Run the script:
 ```sh
-python air_canvas.py
+python aircanvas.py
 ```
 
 ### Key Controls
