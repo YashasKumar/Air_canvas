@@ -1,11 +1,54 @@
-# Air_canvas
-Welcome to the 'Air Canvas' project repository! 🚀
+# Air Canvas with Hand Tracking
 
-About:
-'Air Canvas' is a personal exploration into the world of whiteboard replacement using OpenCV and MediaPipe libraries. Transforming hand movements into practical annotations, this project redefines the traditional whiteboard experience.
+This project implements an air canvas using Mediapipe and OpenCV. Users can draw on a virtual canvas by moving their index finger in front of a webcam. The project includes a feature to start a new drawing segment when the thumb is close to the index finger, creating breaks in the drawing sequence.
 
-Key Features:
+## Features
 
-Real-time Hand Tracking: Achieve precision with MediaPipe for seamless navigation.
-Gesture-Powered Interaction: OpenCV integration translates gestures into practical annotations.
-User-Friendly Interface: Enjoy an intuitive experience for efficient interaction with the virtual whiteboard.
+- **Real-time Hand Tracking**: Uses Mediapipe to track hand landmarks.
+- **Drawing on Virtual Canvas**: Draw on a virtual canvas using your index finger.
+- **Segmented Drawing**: Automatically create new drawing segments when the thumb is close to the index finger.
+- **Mode Switching**: Switch between drawing mode and viewing mode.
+- **Save Drawings**: Save the current canvas as an image file.
+- **Clear Canvas**: Clear the canvas with a key press.
+
+## Requirements
+
+- Python 3.x
+- OpenCV
+- Mediapipe
+- Numpy
+
+## Installation
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/yourusername/air-canvas.git
+   cd air-canvas
+   ```
+
+2. **Install dependencies**:
+   ```sh
+   pip install opencv-python mediapipe numpy
+   ```
+
+## Usage
+
+Run the script:
+```sh
+python air_canvas.py
+```
+
+### Key Controls
+
+- **'d'**: Enable drawing mode.
+- **'r'**: Enable viewing mode.
+- **'c'**: Clear the canvas.
+- **'q'**: Save the canvas and quit.
+
+## Contributing
+
+Feel free to submit issues and enhancement requests.
+
+## License
+
+This project is licensed under the MIT License.
