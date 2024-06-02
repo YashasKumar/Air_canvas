@@ -45,10 +45,6 @@ python aircanvas.py
 - **'c'**: Clear the canvas.
 - **'q'**: Save the canvas and quit.
 
-## Contributing
-
-Feel free to submit issues and enhancement requests.
-
 ## License
 
 This project is licensed under the MIT License.
